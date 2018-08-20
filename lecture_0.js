@@ -58,3 +58,11 @@ Scope
     -block scoping(const, let): until the next } is reached
 -Hoisting
     -fuction definitions are hoisted but not lexically-scoped initializations
+
+The JavaScript Engine
+
+Before executing the code, the enging reads the entire file and will throw a syntax error if one is found:
+-any function defs will be saved in memory
+-variable initializations will not be run, but lexically-scoped variable names will be declared
+
+global and window are node and browser equivalents
