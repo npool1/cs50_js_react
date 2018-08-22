@@ -66,3 +66,5 @@ Before executing the code, the enging reads the entire file and will throw a syn
 -variable initializations will not be run, but lexically-scoped variable names will be declared
 
 global and window are node and browser equivalents
+
+*/
